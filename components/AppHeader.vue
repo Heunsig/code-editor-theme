@@ -4,7 +4,7 @@
         <github-corner url="https://github.com/alexdeploy/developer-portfolio-v2" />
           <div class="flex">
             <NuxtLink id="nav-logo" to="/">
-              {{ config.dev.logo_name }}
+              {{ config.public.dev.logo_name }}
             </NuxtLink>
 
             <NuxtLink id="nav-link" to="/" :class="{ active: isActive('/') }">

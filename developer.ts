@@ -1,4 +1,4 @@
-{
+export default {
     "name": "Micheal Weaver",
     "logo_name": "micheal-weaver",
     "role": "Front-end developer",

@@ -89,7 +89,7 @@ export default {
         }
     },
     setup() {
-        const contact = useRuntimeConfig().dev.contacts
+        const contact = useRuntimeConfig().public.dev.contacts
 
         return {
             contact

@@ -29,6 +29,7 @@ describe('Testing Github Gists API', () => {
             try {
                 JSON.parse(str);
             } catch (e) {
+                console.log('Error:', e)
                 return true;
             }
             return false;

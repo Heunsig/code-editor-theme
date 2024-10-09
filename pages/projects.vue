@@ -62,14 +62,12 @@
             for these technologies
           </span>
         </div>
-        
         <project-card
-          v-for="(project, key, index) in projects" 
-          :key="key" 
+          v-for="(project, index) in projects" 
+          :key="project.id"
           :index="index"
           :project="project"
         />
-
       </div>
   </div>
 </main>

@@ -92,7 +92,7 @@ export default {
     },
     setup() {
         return {
-            social: useRuntimeConfig().dev.contacts.social
+            social: useRuntimeConfig().public.dev.contacts.social
         }
     },
 }

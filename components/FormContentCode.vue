@@ -122,7 +122,7 @@ export default {
     window.addEventListener("input", this.updateLines);
     window.addEventListener("click", this.updateLines);
   },
-  beforeDestroy() {
+  beforeUnmount() {
     window.removeEventListener("resize", this.updateLines);
     window.removeEventListener("click", this.updateLines);
     window.addEventListener("input", this.updateLines);
@@ -131,7 +131,7 @@ export default {
     updateLines() {
       const textContainer = this.$el.querySelector(".text-container");
       const style = window.getComputedStyle(textContainer);
-      const fontSize = parseInt(style.fontSize);
+    //   const fontSize = parseInt(style.fontSize);
       const lineHeight = parseInt(style.lineHeight);
       const maxHeight = textContainer.offsetHeight;
       this.lines = Math.ceil(maxHeight / lineHeight);

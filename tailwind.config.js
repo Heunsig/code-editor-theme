@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     theme: {
         extend: {
             colors: {
@@ -36,6 +36,6 @@ module.exports = {
             fira_semibold: "Fira Code SemiBold",
             fira_bold: "Fira Code Bold",
             fira_variable: "Fira Code Variable",
-          }
+        }
     }
 }
